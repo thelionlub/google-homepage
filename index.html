@@ -9,21 +9,48 @@
             background: white;
             margin: 0;
         }
+        .topleft {
+            display:inline-block;padding:5px;margin:0 5px;color:#222
+            }
+            
+        .topleft:first-of-type{
+            margin-left:15px}
+        }    
+        .topright {
+            display: inline-block;
+            line-height: 24px;
+            vertical-align: middle;
+            color: rgba(0,0,0,0.87);
+            text-decoration: none;
+            text-decoration-line: none;
+            text-decoration-thickness: initial;
+            text-decoration-style: initial;
+            text-decoration-color: initial;
+        }
     </style>
 </head>
 
 <body>
     <div class="toplinks">
-        <div class="topleft" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiXgI-S88jvAhVSXc0KHeb-D1QQkNQCCAI&url=https%3A%2F%2Fabout.google%2F%3Ffg%3D1%26utm_source%3Dgoogle-US%26utm_medium%3Dreferral%26utm_campaign%3Dhp-header&usg=AOvVaw13L0SpN0L7ycx9R0_i4R2S">About</div>
-        <div class="topleft" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiXgI-S88jvAhVSXc0KHeb-D1QQpMwCCAM&url=https%3A%2F%2Fstore.google.com%2FUS%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Den-US&usg=AOvVaw0wvkRBURf91YdMQCXOelDf">Store</div>
+        <div class="topleft" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</div>
+        <div class="topleft" href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</div>
         <div class="topright" href="https://mail.google.com/mail/?tab=rm&ogbl">Gmail</div>
         <div class="topright" href="https://www.google.com/imghp?hl=en&tab=ri&ogbl">Images</div>
         <div class="apps" href="https://www.google.com/intl/en/about/products?tab=rh">Apps</div>
         <div class="account" href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/%3Fgws_rd%3Dssl">Account</div>
     </div>
     
-    <div class="logo">logo</div>
-    <div class="searchbar">search bar</div>
+    <div class="logo">
+        <img class="logo" alt="Google" height="92" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
+        srcset="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png 1x, https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png 2x"
+        width="272"
+        data-atf="1">
+    </div>
+    <div class="searchbar">
+        <input id="input" type="search" autocomplete="off" spellcheck="false" role="combobox" 
+        placeholder="Search Google or type a URL" aria-live="polite">
+    </div>
+        <ntp-realbox-icon id="icon" in-searchbox background-image mask-image="search.svg">...</ntp-realbox-icon></ntp-realbox-icon>
     <div class="middle">Google Search</div>
     <div class="middle">I'm Feeling Lucky</div>
     <div class="middle">
