@@ -1,123 +1,40 @@
-body{
-    margin: 20px;
-}
 
+#body {
+    margin: 30px;
+    height: 30px;
+}
 #nav {
-display: grid;
-grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
-grid-template-rows: 50px;
-grid-template-areas:" about store . gmail images dots signin";
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+#a {
+    flex-basis: 5%;
+}
+#b {
+    flex-basis: 5%;
+}
+#ghost {
+    flex-basis: 80%;
+}
+#c {
+    flex-basis: 5%;
+}
+#d {
+    flex-basis: 5%;
+}
+#aa {
+    flex-basis: 5%;
+}
+#bb {
+    flex-basis: 5%;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-
-    }
-
-    #about {
-    grid-area: about;
-    justify-self: center;
-    align-self: center;
-    }
-    #store{
-    grid-area: store;
-    justify-self: center;
-    align-self: center;
-    }
-    #gmail{
-    grid-area: gmail;
-    justify-self: center;
-    align-self: center;
-    }
-    #images{
-    grid-area: images;
-    justify-self: center;
-    align-self: center;
-    }
-    #dots{
-    grid-area: dots;
-    justify-self: center;
-    align-self: center;
-    }
-    #signin{
-    grid-area: signin;
-    justify-self: center;
-    align-self: center;
-    }
-
-#center {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 100px 100px 100px;
-    grid-template-areas:"a b c d e" 
-}
-
-#logo{
-    grid-area: a;
-}
-#search{
-    grid-area: b;
-}
-#googlesearch{
-    grid-area: c;
-}
-#lucky{
-    grid-area: d;
-}
-#womens{
-    grid-area: e;
-}
-
-
-#footer {
-    display: grid;
-    grid-template-columns: 90px 90px 120px 1fr 90px 90px 90px;
-    grid-template-rows: 50px;
-    grid-template-areas:" a b c d e f g";
-    }
-
-    a {
-        text-decoration: none;
-        color: black;
-    
-        }
-    
-        #advertising {
-        grid-area: a;
-        justify-self: center;
-        align-self: center;
-        }
-        #business{
-        grid-area: b;
-        justify-self: center;
-        align-self: center;
-        }
-        #search{
-        grid-area: c;
-        justify-self: center;
-        align-self: center;
-        }
-        #carbon{
-        grid-area: d;
-        justify-self: center;
-        align-self: center;
-        }
-        #privacy{
-        grid-area: e;
-        justify-self: center;
-        align-self: center;
-        }
-        #terms{
-        grid-area: f;
-        justify-self: center;
-        align-self: center;
-        }
-        #terms{
-        grid-area: g;
-        justify-self: center;
-        align-self: center;
-        }
 
 
 
