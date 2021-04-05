@@ -3,6 +3,7 @@
     margin: 30px;
     height: 30px;
 }
+
 #nav {
     display: flex;
     flex-direction: row;
@@ -12,6 +13,9 @@
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color:rgb(32, 31, 31);
 }
 #a {
     flex-basis: 5%;
@@ -29,13 +33,48 @@
     flex-basis: 5%;
 }
 #aa {
-    flex-basis: 5%;
+    flex-basis: 3%;
 }
 #bb {
-    flex-basis: 5%;
+    flex-basis: 8%;
+    color: white;
+    font-size: 14.5px;
+    background-color: rgb(25, 83, 241);
+    border-radius: 7px;
+    box-shadow: white;
+    padding-top: 8.5px;
+    padding-bottom: 8.5px;
+    border-style: solid;
+    border-color: transparent;
 }
 
+#center {
+    display: flex;
+    flex-direction: column;
+    
 
+    
+}
+#logo {
+    text-align: center;
+    margin-top: 250px;
+}
 
-
-     
+#buttons {
+    margin-top: 20px; 
+    display: flex;
+    justify-content: center;
+}
+.button {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: rgb(245, 242, 242);
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: rgb(54, 54, 54);
+}
