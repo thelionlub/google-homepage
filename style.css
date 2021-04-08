@@ -108,6 +108,11 @@
 }
 
 #footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 11px;
+    width: 100%;
     cursor: pointer;
     display: flex;
     flex-direction: row;
@@ -117,38 +122,42 @@
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 14px;
     font-family: arial,sans-serif;
-    color:rgb(32, 31, 31);
-    background-color: rgb(250, 250, 250);
+    color:rgb(56, 54, 54);
+    background-color: rgb(240, 235, 235);
 }
 
 #advertising {
-    flex-basis: 8%;
+    flex-basis: 2%;
 }
 
 #business {
-    flex-basis: 8%;
-}
+    flex-basis: 2%;
+}lo
 
 #howsearch {
-    flex-basis: 8%;
-}
-#gb {
     flex-basis: 10%;
 }
+#gb {
+    flex-basis: 12%;
+}
 #carbon {
-    flex-basis: 25%;
+    flex-basis: 30%;
 }
 
+#gb2 {
+    flex-basis: 4%;
+
 #privacy {
-    flex-basis: 5%;
+    flex-basis: 2%;
 }
 
 #terms {
-    flex-basis: 5%;
+    flex-basis: 2%;
 }
 
 #settings{
-    flex-basis: 5%;
+    flex-basis: 2%;
 }
